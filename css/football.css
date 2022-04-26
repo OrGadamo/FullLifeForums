@@ -1,0 +1,19 @@
+body{
+    grid-template-areas: 
+    'hader hader hader hader hader hader hader'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'footer footer footer footer footer footer footer';
+}
+#soccerball{
+width: 40vw;
+height: 40vh;
+
+  }
