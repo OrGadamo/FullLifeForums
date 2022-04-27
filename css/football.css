@@ -1,19 +1,44 @@
 body{
-    grid-template-areas: 
-    'hader hader hader hader hader hader hader'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'sidebar main main main main main main'
-    'footer footer footer footer footer footer footer';
+    background-image: url();
+}
+.football-forum{
+    width: 100vw;
+    height: 60vh;
+    background-color:white;
+    opacity: 80%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('https://th.bing.com/th/id/R.8457dc36dedf1124294e1f18b2f9c457?rik=3F0DV41K54HBxw&pid=ImgRaw&r=0');
+    background-size: cover; */
+}
+.ball-left{
+    width: 50vw;
+    height: 50vh;
+ filter: drop-shadow(8px 8px 10px rgba(93, 143, 250, 0.674)) saturate(7);
+ 
+ border-radius: 3%;
+    
 }
 #soccerball{
-width: 40vw;
-height: 40vh;
-
+width: 100vw;
+height: 100vh;
   }
+ .card{
+     opacity: 80%;
+     width: 100vw;
+     height: 50vh;
+     text-align: right;  
+     overflow:scroll;
+ }
+ #forum{
+     opacity:100%;
+     text-align: right;
+     color:blue;
+background-color: rgb(11, 1, 1);
+ }
+ .user-icon{
+     width: 3vw;
+     height: 3vh;
+ }
