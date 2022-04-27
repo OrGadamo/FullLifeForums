@@ -1,50 +1,107 @@
 body {
   margin: none;
-  display: grid;
-  grid-area: "header" "main" "footer";
 }
-header {
-  grid-area: "header";
-}
-#search {
-  color: #fff;
-  background-color: #212529;
-  border-color: #6c757d;
-}
-.icon {
-  color: #586b97;
-  font-size: 3vh;
-}
-span {
-  font-size: 2.5vh;
-}
-main {
-  grid-area: "main";
-}
-.intro {
-  background-color: #e9f1f3;
-
-  /* background: rgb(22, 59, 97);
-  background: linear-gradient(
-    90deg,
-    rgba(22, 59, 97, 0.7794468129048494) 0%,
-    rgba(255, 255, 255, 1) 72%
-  ); */
-}
-#example {
-  height: 30vh;
-}
-.example {
-  background-color: #24303c;
-}
-#hometopimg {
-  height: 30vh;
-  width: 90vw;
-}
-footer {
-  grid-area: "footer";
-}
-#logo {
-  height: 8vh;
-  border-radius: 10px;
+@media screen and (max-width: 576px) {
+  #logo {
+    height: 9vh;
+    border-radius: 10px;
+  }
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bolder !important;
+  }
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+  }
+  .app-badge {
+    height: 5vh;
+  }
+  #search {
+    color: #fff;
+    background-color: #212529;
+    border-color: #6c757d;
+  }
+  .icon {
+    color: #586b97;
+    font-size: 3vh;
+  }
+  span {
+    font-size: 2.5vh;
+  }
+  #hometopimg {
+    height: 30vh;
+    width: 90vw;
+  }
+  .intro {
+    background-color: #e9f1f3;
+  }
+  .foruminfo {
+    background-color: #24303c;
+    position: relative;
+  }
+  #fbbanner1 {
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    filter: opacity(0.25);
+    width: 50vw;
+    height: 20vh;
+  }
+  #fbbanner2 {
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    filter: opacity(0.25);
+    width: 50vw;
+    height: 20vh;
+  }
+  #anibanner1 {
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    filter: opacity(0.25);
+    width: 50vw;
+    height: 20vh;
+  }
+  #anibanner2 {
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    filter: opacity(0.25);
+    width: 50vw;
+    height: 20vh;
+  }
+  #techbanner1 {
+    position: absolute;
+    bottom: 0vh;
+    left: 0vh;
+    width: 50vw;
+    height: 20vh;
+    filter: opacity(0.25);
+  }
+  #techbanner2 {
+    position: absolute;
+    top: 3vh;
+    right: 3vh;
+    width: 50vw;
+    height: 20vh;
+    filter: opacity(0.25);
+  }
+  #sneakerbanner1 {
+    position: absolute;
+    bottom: 0vh;
+    right: 0vh;
+    width: 50vw;
+    height: 20vh;
+    filter: opacity(0.25);
+  }
+  #sneakerbanner2 {
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    width: 50vw;
+    height: 20vh;
+    filter: opacity(0.25);
+  }
 }
