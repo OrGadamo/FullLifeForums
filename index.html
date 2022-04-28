@@ -11,20 +11,232 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/homestyle.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/genral.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <title>Full-Life Forums</title>
   </head>
-  <body class="">
-    <header class="p-3 bg-dark text-light">
-      <div class="container">
-        <div class="d-flex align-items-center justify-content-space-between">
-          <div class="row">
-            <
-            <img src="/images/flflogo.png" class="rounded" id="logo" alt="" />
+  <body>
+    <header class="bg-dark text-light">
+      <div class="container-lg">
+        <div class="row d-flex justify-content-space-between">
+          <div class="col-12 col-sm-2 d-flex justify-content-center mb-2 pt-2">
+            <a> <img src="/images/flflogo.png" class="" id="logo" alt="" /></a>
+          </div>
+          <div
+            class="col col-md-2 d-flex justify-content-center align-items-sm-center"
+          >
+            <a class="headlink text-light">Home</a>
+          </div>
+          <div
+            class="col col-md-2 d-flex justify-content-center align-items-sm-center"
+          >
+            <a class="headlink text-light">Forums</a>
+          </div>
+          <div
+            class="col col-md-2 d-flex justify-content-center align-items-sm-center"
+          >
+            <a class="headlink text-light">About</a>
+          </div>
+          <div
+            class="col col-md-2 d-flex justify-content-center align-items-sm-center"
+          >
+            <a class="headlink text-light">Members</a>
+          </div>
+          <div
+            class="col col-md-2 d-flex justify-content-center align-items-sm-center"
+          >
+            <a class="headlink text-light">Contact</a>
+          </div>
+          <div class="row d-sm-flex justify-content-sm-center">
+            <form
+              class="col-12 col-sm-6 d-flex justify-content-sm-center mt-2 mb-3"
+            >
+              <input
+                class="form-control"
+                id="search"
+                type="search"
+                placeholder="Search..."
+              />
+            </form>
+            <div
+              class="col-12 col-sm-4 col-md-3 d-flex justify-content-center mb-2"
+            >
+              <button type="button" class="btn btn-outline-light me-3">
+                Login
+              </button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <main>main and shit</main>
-    <footer class="bg-dark">footer</footer>
+    <main>
+      <div
+        class="intro pt-3 mb-3 d-flex flex-column align-items-center container-md"
+      >
+        <div class="text-center mb-3">
+          <h1 class="display-1 mb-3">Welcome to Full-Life Forums!</h1>
+          <p class="mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+            perspiciatis laboriosam omnis officiis voluptas voluptatem.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <img src="images/app-store-badge.svg" alt="" class="app-badge me-2" />
+          <img src="images/google-play-badge.svg" alt="" class="app-badge" />
+        </div>
+
+        <div>
+          <img
+            src="images/imgtop.jpg"
+            alt=""
+            class="rounded d-sm-none"
+            id="hometopimg"
+          />
+        </div>
+      </div>
+      <div
+        class="foruminfo container-md d-flex flex-column align-items-center text-light"
+      >
+        <img
+          src="images/fbbanner1.png"
+          alt=""
+          id="fbbanner1"
+          class="d-sm-none"
+        />
+        <img
+          src="images/fbbanner2.png"
+          alt=""
+          id="fbbanner2"
+          class="d-sm-none"
+        />
+        <div class="text-center">
+          <h3 class="mt-3 mb-2">Football Forum</h3>
+          <p class="mb-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            pariatur assumenda reiciendis repellendus veritatis, officiis et,
+            porro eius deserunt possimus voluptatem impedit incidunt? Inventore
+            asperiores repellendus debitis iure consequuntur facilis.
+          </p>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-large btn-outline-light">Learn More</button>
+        </div>
+      </div>
+      <div
+        class="container-md d-flex flex-column align-items-center position-relative"
+      >
+        <img
+          src="images/animebanner1.png"
+          alt=""
+          id="anibanner1"
+          class="d-sm-none"
+        />
+        <img
+          src="images/animebanner2.png"
+          alt=""
+          id="anibanner2"
+          class="d-sm-none"
+        />
+        <div class="text-center">
+          <h3 class="mt-3 mb-2">Anime Forum</h3>
+          <p class="mb-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            pariatur assumenda reiciendis repellendus veritatis, officiis et,
+            porro eius deserunt possimus voluptatem impedit incidunt? Inventore
+            asperiores repellendus debitis iure consequuntur facilis.
+          </p>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-large btn-outline-primary">Learn More</button>
+        </div>
+      </div>
+      <div
+        class="foruminfo container-md d-flex flex-column align-items-center text-light"
+      >
+        <img
+          src="images/techbanner1.png"
+          alt=""
+          id="techbanner1"
+          class="d-sm-none"
+        />
+        <img
+          src="images/techbanner2.png"
+          alt=""
+          id="techbanner2"
+          class="d-sm-none"
+        />
+        <div class="text-center">
+          <h3 class="mt-3 mb-2">High-Tech Forum</h3>
+          <p class="mb-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            pariatur assumenda reiciendis repellendus veritatis, officiis et,
+            porro eius deserunt possimus voluptatem impedit incidunt? Inventore
+            asperiores repellendus debitis iure consequuntur facilis.
+          </p>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-large btn-outline-light">Learn More</button>
+        </div>
+      </div>
+      <div
+        class="container-md d-flex flex-column align-items-center position-relative"
+      >
+        <img
+          src="images/sneakerbanner1.png"
+          alt=""
+          id="sneakerbanner1"
+          class="d-sm-none"
+        />
+        <img
+          src="images/sneakerbanner2.png"
+          alt=""
+          id="sneakerbanner2"
+          class="d-sm-none"
+        />
+        <div class="text-center">
+          <h3 class="mt-3 mb-2">Sneakers Forum</h3>
+          <p class="mb-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            pariatur assumenda reiciendis repellendus veritatis, officiis et,
+            porro eius deserunt possimus voluptatem impedit incidunt? Inventore
+            asperiores repellendus debitis iure consequuntur facilis.
+          </p>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-large btn-outline-primary">Learn More</button>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-light d-flex justify-content-between">
+      <div class="d-flex flex-column ml-2">
+        <span class="linkname">Or Gadamo</span>
+        <div class="d-flex justify-content-between">
+          <a href=""><i class="bi bi-facebook icon"></i></a>
+          <a href=""><i class="bi bi-linkedin icon"></i></a>
+          <a href=""><i class="bi bi-instagram icon"></i></a>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="linkname">Thank you!</span>
+      </div>
+      <div class="d-flex flex-column me-2">
+        <span class="linkname">Natan Belay</span>
+        <div class="d-flex justify-content-between">
+          <a href=""><i class="bi bi-facebook icon"></i></a>
+          <a href=""><i class="bi bi-linkedin icon"></i></a>
+          <a href=""><i class="bi bi-instagram icon"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
