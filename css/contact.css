@@ -1,0 +1,39 @@
+main {
+  background-color: #e6e6e6b3;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+div span {
+  font-size: 5vh;
+  font-weight: bolder;
+}
+#contactspan {
+  margin-top: 3vh;
+  margin-bottom: 7vh;
+}
+.boxinput {
+  background-color: #e6e6e6b3;
+  border-radius: 10px;
+  font-size: 1.3vh;
+  margin-bottom: 5vh;
+}
+.textbar {
+  background-color: #e6e6e6b3;
+  border: none;
+  font-weight: bold;
+}
+#iconlogo {
+  height: 200px;
+  width: 200px;
+}
+#txtimg {
+  margin-bottom: 10vh;
+}
+p {
+  color: #000;
+  font-size: medium;
+}
+p span {
+  color: rgb(0, 87, 249);
+  font-size: small;
+}

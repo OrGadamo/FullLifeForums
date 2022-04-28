@@ -1,19 +1,35 @@
 body {
   margin: none;
 }
-@media screen and (min-width: 768px) {
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder !important;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 @media screen and (min-width: 576px) {
+  .wideposters {
+    width: 50vw;
+    height: 60vh;
+  }
+  #mobileposter {
+    height: 50vh;
+  }
+  .app-badge {
+    height: 6vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  #mobileposter {
+    height: 80vh;
+  }
+  .app-badge {
+    height: 7vh;
+  }
 }
 @media screen and (max-width: 576px) {
-  h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: bolder !important;
-  }
-  h3 {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-  }
   .app-badge {
     height: 5vh;
   }
@@ -27,6 +43,7 @@ body {
   .foruminfo {
     background-color: #24303c;
     position: relative;
+    color: rgb(255, 255, 255);
   }
   #fbbanner1 {
     position: absolute;
