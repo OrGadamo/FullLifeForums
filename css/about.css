@@ -1,0 +1,39 @@
+main {
+  background-image: url(/images/bgabout.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  color: white;
+}
+#txtabout {
+  padding-left: 5vw;
+}
+h1 {
+  border-bottom: 1px solid #ff4504;
+}
+#intro {
+  padding-bottom: 5vh;
+}
+.intro {
+  padding-bottom: 3vh;
+}
+#quote {
+  font-style: italic;
+}
+#quotebox {
+  border-bottom: 5px solid #ff4504;
+  margin-bottom: 10vh;
+}
+@media screen and (min-width: 992px) {
+  #picpage {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  #picpage {
+    width: 60vw;
+    height: 60vw;
+  }
+}
