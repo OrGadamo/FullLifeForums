@@ -1,0 +1,45 @@
+main {
+  background-color: #fdfdfd;
+}
+#enterforum {
+  height: 90vh;
+  background-image: url(/images/animebg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#mynav {
+  background-color: #ee2626f2;
+  border-radius: 10px;
+}
+#mysearchf {
+  width: 40vw;
+}
+nav {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
+.forumimg {
+  width: 100%;
+}
+.allcardpic {
+  width: 100%;
+  height: 60vh;
+}
+.halfcard {
+  width: 100%;
+  height: 40vh;
+}
+.mycard {
+  width: 90%;
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.6);
+}
+.concard {
+  margin-bottom: 5vh;
+}
+li {
+  transition: trasform 1s;
+}
+li:hover {
+  transform: scale(1.1);
+}

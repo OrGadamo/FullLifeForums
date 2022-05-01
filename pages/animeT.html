@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/genral.css" />
+    <link rel="stylesheet" href="/css/animeT.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Anime forum</title>
+  </head>
+  <body>
+    <header class="bg-dark text-white p-3">
+        <div class="container-fluid">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-start"
+          >
+            <a
+              href="#"
+              class="d-flex algn-items-center mb-2 mb-lg-0 text-white pt-2"
+            >
+              <img src="/images/flflogo.png" class="logo" alt="" />
+            </a>
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a href="#" class="nav-link px-2 text-secondary">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white text-decoration-none"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Forums
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Football forum</a>
+                  <a class="dropdown-item" href="#">Anime forum</a>
+                  <a class="dropdown-item" href="#">High-Tech forum</a>
+                  <a class="dropdown-item" href="#">Sneakers forum</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">More info</a>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="/pages/aboutus.html"
+                  target="_blank"
+                  class="nav-link px-2 text-white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/pages/members.html"
+                  target="_blank"
+                  class="nav-link px-2 text-white"
+                  >Members</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/pages/contact.html"
+                  target="_blank"
+                  class="nav-link px-2 text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input
+                type="search"
+                class="form-control"
+                id="search"
+                placeholder="search..."
+              />
+            </form>
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-3">
+                Login
+              </button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+         <div id="enterforum" class="d-flex align-items-center">
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col-10 col-sm-9 col-md-8 col-lg-6">
+                <h1 class="display-2 mb-3">Welcome to our Anime Forum</h1>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  voluptates libero distinctio corporis quae et, voluptas maiores
+                  blanditiis recusandae dolor. Repudiandae obcaecati corrupti odio
+                  delectus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <nav class="navbar-expand" id="popup">
+          <div class="container p-2" id="mynav">
+            <ul class="navbar-nav me-auto d-flex">
+              <li class="nav-item dropdown" style="color: black">
+                <a
+                  class="nav-link dropdown-toggle text-black text-decoration-none"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><i class="bi bi-list"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item">Search in Forum</a>
+                  <a class="dropdown-item">Search Topic</a>
+                  <a class="dropdown-item">Search User</a>
+                </div>
+              </li>
+              <li class="nav-item" id="mysearchf">
+                <form>
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="search in forum"
+                  />
+                </form>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <i class="bi bi-search"></i>
+              </li>
+              <li class="nav-item dropdown flex-grow-1 d-flex justify-content-end me-4"  style="color: black">
+                <a
+                  class="nav-link dropdown-toggle text-black text-decoration-none"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Order by</i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item">Date</a>
+                  <a class="dropdown-item">Popularity</a>
+                  <a class="dropdown-item">Name</a>
+                  <a class="dropdown-item">Most Viewed</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container justify-content-around">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid1.jpeg" class="allcardpic" alt="">
+                        <div class="d-flex justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                <span class="p-1">101.4k</span>
+                            </div>
+                            <span class="p-1">01/05/22</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join now- new one piece ep</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, porro nihil! At.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join me Demon Slayer- spoilers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam beatae voluptate.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join now- new one piece ep</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, porro nihil! At.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join me Demon Slayer- spoilers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam beatae voluptate.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid1.jpeg" class="allcardpic" alt="">
+                        <div class="d-flex justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                <span class="p-1">101.4k</span>
+                            </div>
+                            <span class="p-1">01/05/22</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid1.jpeg" class="allcardpic" alt="">
+                        <div class="d-flex justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                <span class="p-1">101.4k</span>
+                            </div>
+                            <span class="p-1">01/05/22</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join now- new one piece ep</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, porro nihil! At.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join me Demon Slayer- spoilers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam beatae voluptate.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join now- new one piece ep</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, porro nihil! At.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid2.jpeg" class="halfcard" alt="">
+                        <div class="card-body">
+                            <h4>Join me Demon Slayer- spoilers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam beatae voluptate.</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                    <span class="p-1">101.4k</span>
+                                </div>
+                                <span class="p-1">01/05/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center concard">
+                    <div class="card mycard">
+                        <img src="/images/animevid1.jpeg" class="allcardpic" alt="">
+                        <div class="d-flex justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-heart-fill p-1" style="color: red;"></i>
+                                <span class="p-1">101.4k</span>
+                            </div>
+                            <span class="p-1">01/05/22</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+      <footer class="bg-dark text-light d-flex justify-content-between">
+        <div class="d-flex flex-column ml-2">
+          <span class="linkname">Or Gadamo</span>
+          <div class="d-flex justify-content-between">
+            <a href="https://www.facebook.com/or.gadamo.3" target="_blank"
+              ><i class="bi bi-facebook icon"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/or-gadamo-3798b1236/"
+              target="_blank"
+              ><i class="bi bi-linkedin icon"></i
+            ></a>
+            <a href="https://www.instagram.com/orgadamo/" target="_blank"
+              ><i class="bi bi-instagram icon"></i
+            ></a>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <a
+            href="#"
+            class="d-flex algn-items-center mb-2 mb-lg-0 text-white pt-2"
+          >
+            <img src="/images/flflogo.png" class="logo" alt="" />
+          </a>
+        </div>
+        <div class="d-flex flex-column me-2">
+          <span class="linkname">Natan Belay</span>
+          <div class="d-flex justify-content-between">
+            <a
+              href="https://www.facebook.com/profile.php?id=100000186700025"
+              target="_blank"
+              ><i class="bi bi-facebook icon"></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"
+              ><i class="bi bi-linkedin icon"></i
+            ></a>
+            <a href="https://www.instagram.com/natanb112/" target="_blank"
+              ><i class="bi bi-instagram icon"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
