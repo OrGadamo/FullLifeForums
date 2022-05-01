@@ -17,7 +17,7 @@ main {
 }
 nav {
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 15vh;
 }
 .forumimg {
   width: 100%;
@@ -45,8 +45,8 @@ li {
 li:hover {
   transform: scale(1.1);
 }
-.date{
+.date {
   display: flex;
   justify-content: end;
-  font-size:small;
+  font-size: small;
 }
