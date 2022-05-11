@@ -3,7 +3,7 @@ main {
 }
 #enterforum {
   height: 90vh;
-  background-image: url(/images/sneakersbg.jpg);
+  background-image: url(../images/sneakersbg.jpg);
   background-size: cover;
   background-position: center;
   color: white;

@@ -41,14 +41,14 @@ h1 {
   background-color: #0b0d0b;
 }
 #presentus {
-  background-image: url(/images/bgus.jpg);
+  background-image: url(../images/bgus.jpg);
   background-position: center;
   background-size: cover;
 }
 #joinus {
   height: 40vh;
   width: 100%;
-  background-image: url(/images/membercenter.jpeg);
+  background-image: url(../images/membercenter.jpeg);
   background-position: center;
   background-size: cover;
   color: white;

@@ -1,5 +1,5 @@
 main {
-  background-image: url(/images/bgabout.jpg);
+  background-image: url(../images/bgabout.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 10vh;

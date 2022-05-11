@@ -3,7 +3,7 @@ main {
 }
 #enterforum {
   height: 70vh;
-  background-image: url(/images/footballbg.jpg);
+  background-image: url(../images/footballbg.jpg);
   background-size: cover;
   background-position: bottom;
   color: white;
